@@ -144,7 +144,7 @@
                 // When loaded, decode the data and play the sound
                 request.onload = function () {
                     audioContext.decodeAudioData(request.response, function (buffer) {
-                        document.getElementById('msg').textContent = "Audio sample download finished";
+                        document.getElementById('msg').textContent = "Ali Gatie - It's You";
                         audioData = buffer;
                         playSound(audioData);
                     }, onError);
