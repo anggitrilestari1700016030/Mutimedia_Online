@@ -37,7 +37,7 @@
                 text-align: center;
             }
             #start_button, #stop_button {
-                font-size: 16pt;
+                font-size: 20pt;
             }
             #msg {
                 text-align: center;
@@ -76,7 +76,7 @@
             
             // Global Variables for the Graphics
             var canvasWidth  = 1000;
-            var canvasHeight = 450;
+            var canvasHeight = 500;
             var ctx;
             function startApp() {
                 var c=document.getElementById('canvas');                 
@@ -169,7 +169,7 @@
                     var x=i*canvasWidth/amplitudeArray.length;
                     var clr=['red','blue','yellow'];
                     var color=Math.floor(Math.random()*10);
-                    ctx.fillStyle = 'blue';
+                    ctx.fillStyle = 'black';
                     ctx.fillRect(x, 0, 2, y);
                 }
             }
